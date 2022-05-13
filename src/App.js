@@ -58,7 +58,7 @@ function App() {
       <div className="App">
         <Router>
           <Routes>
-            <Route path="/" element={<LoginForm />} />
+            <Route path="*" element={<LoginForm />} />
             <Route path="/dietian-form/:empId" element={<DietianForm />} />
             <Route path="/view-plan/:empId" element={<ViewDietPlan />} />
             {/* <Route path="/home" element={<Home />} /> */}
