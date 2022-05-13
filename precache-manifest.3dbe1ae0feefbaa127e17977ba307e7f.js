@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2356b3ef0434ab6db32c94c7f10a5e2a",
+    "revision": "3855076e02b2b2c0859129a5e00ddfd8",
     "url": "/healthbuddy/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/healthbuddy/static/css/2.68a81a89.chunk.css"
   },
   {
-    "revision": "e4503a41c188b1d7a5ec",
+    "revision": "f6e16d289907c461fa3c",
     "url": "/healthbuddy/static/css/main.d6942d54.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/healthbuddy/static/js/2.d661ebd4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e4503a41c188b1d7a5ec",
-    "url": "/healthbuddy/static/js/main.f35ab6f5.chunk.js"
+    "revision": "f6e16d289907c461fa3c",
+    "url": "/healthbuddy/static/js/main.36445647.chunk.js"
   },
   {
     "revision": "bde2d755eff43c0632ad",

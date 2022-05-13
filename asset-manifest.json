@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/healthbuddy/static/css/main.d6942d54.chunk.css",
-    "main.js": "/healthbuddy/static/js/main.f35ab6f5.chunk.js",
-    "main.js.map": "/healthbuddy/static/js/main.f35ab6f5.chunk.js.map",
+    "main.js": "/healthbuddy/static/js/main.36445647.chunk.js",
+    "main.js.map": "/healthbuddy/static/js/main.36445647.chunk.js.map",
     "runtime-main.js": "/healthbuddy/static/js/runtime-main.f29821d5.js",
     "runtime-main.js.map": "/healthbuddy/static/js/runtime-main.f29821d5.js.map",
     "static/css/2.68a81a89.chunk.css": "/healthbuddy/static/css/2.68a81a89.chunk.css",
     "static/js/2.d661ebd4.chunk.js": "/healthbuddy/static/js/2.d661ebd4.chunk.js",
     "static/js/2.d661ebd4.chunk.js.map": "/healthbuddy/static/js/2.d661ebd4.chunk.js.map",
     "index.html": "/healthbuddy/index.html",
-    "precache-manifest.5e51c558fec13584e3a77c8a70d8763c.js": "/healthbuddy/precache-manifest.5e51c558fec13584e3a77c8a70d8763c.js",
+    "precache-manifest.3dbe1ae0feefbaa127e17977ba307e7f.js": "/healthbuddy/precache-manifest.3dbe1ae0feefbaa127e17977ba307e7f.js",
     "service-worker.js": "/healthbuddy/service-worker.js",
     "static/css/2.68a81a89.chunk.css.map": "/healthbuddy/static/css/2.68a81a89.chunk.css.map",
     "static/css/main.d6942d54.chunk.css.map": "/healthbuddy/static/css/main.d6942d54.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.68a81a89.chunk.css",
     "static/js/2.d661ebd4.chunk.js",
     "static/css/main.d6942d54.chunk.css",
-    "static/js/main.f35ab6f5.chunk.js"
+    "static/js/main.36445647.chunk.js"
   ]
 }
