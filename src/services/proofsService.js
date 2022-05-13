@@ -11,7 +11,6 @@ export const approveRejectImages = (id,payload) => {
 
 
 export const uploadImages = (payload) => {
-    debugger;
     return Request.post(`https://myhealthbuddyapp.herokuapp.com/api/upload`,payload,{
         headers: {
           'Content-Type': 'multipart/form-data'

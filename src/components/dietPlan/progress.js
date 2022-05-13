@@ -35,7 +35,6 @@ function FitnessProgressBar(props) {
       currentDate = moment(currentDate).add(1, 'weeks').format("YYYY-MM-DD").toString();
       weekGoalData.push(weekData);
     }
-    debugger;
     setWeekGoals(weekGoalData)
   };
 

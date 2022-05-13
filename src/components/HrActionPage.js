@@ -53,7 +53,6 @@ function ModalPopup(props) {
 
    useEffect(() => {
     function callSetterFunction(){
-        debugger;
         if(recommendedPlan){
          if(recommendedPlan.approved){
              setText('Approved');

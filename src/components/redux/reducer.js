@@ -20,7 +20,6 @@ const healthBuddyReducer = createSlice({
       state.loginResponse = action.payload;
     },
     saveBmiDetails:(state, action)=> {
-      debugger
       state.bmiDetails = action.payload;
       console.log("isState updated--",state);
     },

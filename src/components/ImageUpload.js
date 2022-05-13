@@ -41,7 +41,6 @@ export default class ImageUpload extends React.Component {
   
     _handleImageChange(e, type) {
       e.preventDefault();
-     debugger;
       if(type=='first-image'){
         let reader = new FileReader();
         let file = e.target.files[0];

@@ -92,7 +92,6 @@ function DietPlan(props) {
   };
 
   const getEmpData = async (pEmpId) => {
-    debugger
     if (!pEmpId) return;
     const empPublicDetails = await getEmpPublicInfo(pEmpId);
     const empDetails = await getUserById(pEmpId);
@@ -100,7 +99,6 @@ function DietPlan(props) {
       const data = { ...empDetails?.employee?.recommendedPlan };
       data.employee = empPublicDetails?.employee;
       setDietForm(data);
-      debugger;
     }
   };
 

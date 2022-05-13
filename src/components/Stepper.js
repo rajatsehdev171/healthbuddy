@@ -338,7 +338,6 @@ const StepperC = (props) => {
 
 	const secondStepAsyncFunc = () => {
 		setIsSecondStepLoading(true);
-		debugger;
 		let {
 			height,
 			weight,
@@ -408,7 +407,6 @@ const StepperC = (props) => {
 	}, [editableParams]);
 
 	useEffect(() => {
-		debugger;
 		const { name, sex, email, dob, hr_manager } = responseObj;
 		if (name && sex && email && dob && hr_manager) {
 			firstTermsHandler();

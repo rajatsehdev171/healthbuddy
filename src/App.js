@@ -35,7 +35,6 @@ const ProtectedRoute = ({ store, redirectPath, children }) => {
   }
 
   getUserDetails().then(response => {
-    debugger;
     store.dispatch(
       updateLoginResponse({
         isLoggedIn: true,
