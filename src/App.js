@@ -59,7 +59,7 @@ function App() {
       <div className="App">
         <Router>
           <Routes>
-            <Route path="/" element={<LoginForm />} />
+            <Route path="*" element={<LoginForm />} />
             <Route path="/dietian-form/:empId" element={<DietianForm />} />
             <Route path="/view-plan/:empId" element={<ViewDietPlan />} />
             {/* <Route path="/home" element={<Home />} /> */}
@@ -81,7 +81,7 @@ function App() {
               <HrActionPage />
             </ProtectedRoute>
           }/>
-            <Route path="*" element={<p>There's nothing here: 404!</p>} />
+            {/* <Route path="*" element={<p>There's nothing here: 404!</p>} /> */}
           </Routes>
         </Router>
       </div>
