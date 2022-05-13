@@ -59,25 +59,25 @@ function App() {
       <div className="App">
         <Router>
           <Routes>
-            <Route path="*" element={<LoginForm />} />
+            <Route path="/login" element={<LoginForm />} />
             <Route path="/dietian-form/:empId" element={<DietianForm />} />
             <Route path="/view-plan/:empId" element={<ViewDietPlan />} />
             {/* <Route path="/home" element={<Home />} /> */}
             <Route
               path="/user-dashboard"
               element={
-                <ProtectedRoute store={store} redirectPath="/">
+                <ProtectedRoute store={store} redirectPath="/login">
                   <StepperC />
                 </ProtectedRoute>
               }
             />
             <Route path="/home" element={
-            <ProtectedRoute store={store} redirectPath="/">
+            <ProtectedRoute store={store} redirectPath="/login">
               <Home />
             </ProtectedRoute>
           }/>
           <Route path="/hr-page" element={
-            <ProtectedRoute store={store} redirectPath="/">
+            <ProtectedRoute store={store} redirectPath="/login">
               <HrActionPage />
             </ProtectedRoute>
           }/>
